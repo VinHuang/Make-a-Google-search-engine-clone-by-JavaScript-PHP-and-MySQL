@@ -1,9 +1,14 @@
 <?php
-  if(isset($_GET["term"])) {
-	  $term = $_GET["term"];
-  }else{
-      exit("You must enter a search term")
-  }
+
+	if(isset($_GET["term"])) {
+		$term = $_GET["term"];
+	}
+	else {
+		exit("You must enter a search term");
+	}
+
+
+	
 ?>
 <!DOCTYPE html>
 <html>
@@ -24,7 +29,7 @@
 
 				<div class="logoContainer">
 					<a href="index.php">
-						<img src="assets/img/logo.png">
+						<img src="assets/images/doodleLogo.png">
 					</a>
 				</div>
 
@@ -36,21 +41,16 @@
 
 							<input class="searchBox" type="text" name="term">
 							<button class="searchButton">
-								<img src="assets/img/search.png">
+								<img src="assets/images/icons/search.png">
 							</button>
 						</div>
 
-
-
-
 					</form>
-
 
 				</div>
 
-
-
 			</div>
+
 
 			<div class="tabsContainer">
 
@@ -73,9 +73,9 @@
 
 			</div>
 
+
+
 		</div>
-
-
 	</div>
 
 </body>
