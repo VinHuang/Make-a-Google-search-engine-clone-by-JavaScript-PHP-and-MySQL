@@ -14,7 +14,7 @@
 		<div class="mainSection">
 
 			<div class="logoContainer">
-				<img src="assets/img/logo.png">
+				<img src="assets/images/doodleLogo.png">
 			</div>
 
 
